@@ -1,0 +1,184 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./stlyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <body>
+        <header>
+            <div class="left corner logo">
+            <a class="logoeva" href=""> </a>
+            </div>
+            <div class="navbar">
+                <nav class="navtext">
+                    
+                        <a href="">Home</a> 
+                        <a href="">About</a>
+                        <a href="">Contact</a>
+                        <a href="">Shop</a>
+                        <a href="">Blog</a>
+                    
+                </nav>
+            </div>
+            <div class="navright">
+                <nav class="right">
+
+                        <a class="subscribe"> Subscribe</a>
+                        <a class="faq">FAQ</a> 
+                    
+                        <input type="search" placeholder="search">
+                </nav>
+                
+                
+            </div>
+            <div class="right-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p id="number" class="number">0</p>
+            
+                
+            </div>
+            
+            
+        </header>
+        <div class="Container">
+            <aside class="sidebar">
+                <h3> Categories</h3>
+                <ul>
+                    <li a href=""> All products</li>
+                    <li a href=""> Toys for boys</li>
+                    <li ahref=""> Toys for girls</li>
+                    <li a href=""> Accessories</li> 
+                </ul>
+                <div class="Sales">
+                    <h3> Sales</h3>
+                    <p> Baby toys </p>
+                    <p> Armenian toys</p>
+                    <P> Robots</P>
+                    <p> Bicycles</p>
+                    <p> Cars</p>
+                </div>
+            </aside>
+        
+            <main>
+                <div class="container1">
+                    <div class="box">
+                        <div class="Img"> 
+                            <img src="https://static.wixstatic.com/media/6449aa_2f1e26cb40e74e87a741ea52e40e2512~mv2.jpg/v1/fill/w_244,h_233,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/6449aa_2f1e26cb40e74e87a741ea52e40e2512~mv2.jpg"></div>
+                            <h3>
+                                Ռոբոտ
+            
+                            </h3>
+                            <p>
+                            55000 դրամ
+                            </p>
+                            <button  onclick="inc(0)"> Buy </button> 
+                            <input type="number"min="0" id="input0">
+
+                    
+                
+                    </div>
+                    <div class="box">
+                        <div class="Img"> 
+                            <img src="https://static.wixstatic.com/media/6449aa_1c3b21f7cbc74e9c9c091e607c9953cb~mv2.jpg/v1/fill/w_243,h_243,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/6449aa_1c3b21f7cbc74e9c9c091e607c9953cb~mv2.jpg"></div>
+                            <h3>
+                                Խաղալիք(Cocomelon)
+            
+                            </h3>
+                            <p>
+                                20000 դրամ
+            
+                            </p>
+                            <button  onclick="inc(1)"> 
+                                Buy
+            
+                            </button>
+                            <input type="number"min="0" id="input1"> 
+                        
+                    </div>
+                    <div class="box">
+                        <div class="Img"> 
+                            <img src="https://static.wixstatic.com/media/6449aa_ced60c1ed0c745439cad194c8aab8628~mv2.jpg/v1/fill/w_219,h_224,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/6449aa_ced60c1ed0c745439cad194c8aab8628~mv2.jpg"></div>
+                            <h3>
+                                Հոլ
+            
+                            </h3>
+                            <p>
+                                15000 դրամ
+            
+                            </p>
+                            <button  onclick="inc(2)"> 
+                                Buy
+            
+                            </button>
+                            <input type="number"min="0" id="input2"> 
+                        
+                    </div>
+                </div>
+                <div class="container2">
+                    <div class="box"> <div class="Img"> 
+                        <img src="https://static.wixstatic.com/media/6449aa_9562eb176fad4eddb74f6e049652832a~mv2.jpg/v1/fill/w_215,h_215,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/6449aa_9562eb176fad4eddb74f6e049652832a~mv2.jpg"></div>
+                        <h3>
+                            Սպիտակ նապաստակ
+            
+                        </h3>
+                        <p>
+                            5500 դրամ
+            
+                        </p>
+                        <button  onclick="inc(3)"> 
+                            Buy
+            
+                        </button>
+                        <input type="number"min="0" id="input3">
+                    </div>
+                    <div class="box">
+                        <div class="Img"> 
+                            <img src="https://static.wixstatic.com/media/75e719_0199e391b61e4cf39e4cfcbe854aaa41~mv2.jpg/v1/fill/w_153,h_223,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/75e719_0199e391b61e4cf39e4cfcbe854aaa41~mv2.jpg"></div>
+                            <h3>
+                            Անձրևանոց
+            
+                            </h3>
+                            <p>
+                                7700 դրամ
+            
+                            </p>
+                            <button  onclick="inc(4)"> 
+                                Buy
+            
+                            </button>
+                            <input type="number"min="0" id="input4">
+                        
+                    </div>
+                    <div class="box">
+                        <div class="Img"> 
+                            <img src="https://static.wixstatic.com/media/6449aa_854547c7b2ed46a3923241e3d0a92665~mv2.jpg/v1/fill/w_215,h_215,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/6449aa_854547c7b2ed46a3923241e3d0a92665~mv2.jpg"></div>
+                            <h3>
+                                Փափուկ արջուկ
+            
+                            </h3>
+                            <p>
+                                8500 դրամ
+            
+                            </p>
+                            <button  onclick="inc(5)"> 
+                                Buy
+            
+                            </button>
+                            <input type="number"min="0" id="input5">
+                        
+                    </div>
+                </div>
+            
+        
+        </main>
+    </div>
+        <script src="./script.js"></script>
+    </body>
+    </html>

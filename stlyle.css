@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color:antiquewhite;
+    align-items: center;
+    position:sticky;
+    top:0;
+  
+
+}
+
+
+header .logo {
+    width: 15%;
+    height: 100%;
+    display: flex;
+}
+
+header .logoeva {
+    width: 100px;
+    height: 100px;
+    background-image: url(./logoeva.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 2%;
+
+}
+
+.navbar  {
+    display: flex;
+    text-decoration:none;
+    flex-direction: row;
+    font-size: 25px;
+    justify-content: space-between;
+    
+    
+}
+.navbar a{
+    text-decoration:none;
+    color:black;
+    margin: 10px;
+    
+}
+.navright{
+   margin-left: 300px;
+
+}
+.navright a:first-child {
+    margin-right: 10px; 
+    font-size: 20px;
+
+}
+
+ 
+header .right-icon i {
+    color: black;
+    font-size: 30px;
+    padding-left: 50px;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+}
+header .right-icon p {
+    padding: 3px 7px;
+    position: absolute;
+    margin-left: 63px;
+    top: 18px;
+    background-color: black;
+    border-radius: 50%;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    z-index: 1;
+}
+.Container{
+    width: 100%;
+    display: flex;
+   margin-top: 20px;
+   background-color: antiquewhite;
+    
+
+}
+.sidebar {
+    background-color: #f9f9f9;
+    width: 20%;
+    text-align: center;
+ 
+}
+.sidebar h3 {
+    font-style: italic;
+    padding: 50px 0 10px 10px; 
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.sidebar li {
+    padding: 10px; 
+    text-decoration: none;
+    /* font-weight: 600; */
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.Sales{
+    padding: 10px; 
+    text-decoration: none;
+    /* font-weight: 600; */
+    letter-spacing: 1px;
+    font-size: 20px;
+
+}
+main{
+   width:75%;
+    
+ }
+ main .container1,.container2 {
+
+    display: flex;
+    flex-wrap:  wrap-reverse;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    background-size:contain;
+    
+ }
+ main .box  {
+    width:250px;
+    height:350px;
+    border:solid 1px gray;
+    text-align: center;
+    border-radius: 5px;
+    background-color:antiquewhite; 
+    
+
+ }
+main .box .Img {
+width: 100%;
+height: 250px;
+border-radius: 5px;
+
+}
+ main .box img{
+    width:100%;
+    height: 250px;
+    border-radius: 5px;
+ }
+ main .box h3{
+    color:blueviolet;
+    padding:5 px;
+    cursor: pointer;
+ }
+ main .box p{
+    padding:5px;
+    font-family: cursive;
+    color: rgb(66, 60, 60);
+    
+ }
+ main .box button{
+    background-color: purple;
+   border:none;
+   padding: 5px 15px;
+   border-radius: 5px;
+    font-size: 20x;
+    cursor: pointer;
+
+ }
+.box input{
+    width: 40px;
+    
+}
